@@ -1,0 +1,6 @@
+[
+  {"id": 1, "departmentName":"HR"},
+  {"id": 2, "departmentName":"IT"},
+  {"id": 3, "departmentName":"Markting"},
+  {"id": 4, "departmentName":"DevOps"}
+]

@@ -1,0 +1,16 @@
+<div class="panel body">
+  <h1>{{greetUser()}}</h1>
+  
+
+   <h2 [ngClass]="messageClasses">Love you my baby {{mybabyname.toUpperCase()}} </h2>
+
+  <input  [id]="myID" type="text" value="{{mybabyname}}" /><br/>
+  <input type="text" #inputText/>
+  </div> <br/>
+  <div>
+<input [(ngModel)]="nameq" type="text" />
+{{'you have type '+nameq.length +'characters'}}
+<button (click)="logMessage(inputText.value)" class="btn btn-primary">Click</button>
+
+  </div>
+  

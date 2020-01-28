@@ -1,0 +1,7 @@
+[
+  {"id":1,"name": "Andrew","dob":"10/25/1989", "isActive":true, "department": "IT"},
+  {"id":2,"name": "Peter","dob":"12/25/1989", "isActive":false, "department": "HR"},
+  {"id":3,"name": "Alex","dob":"9/25/1989", "isActive":true, "department": "Marketing"},
+  {"id":4,"name": "Lara","dob":"7/25/1989", "isActive":true, "department": "DevOps"}
+] 
+ 
