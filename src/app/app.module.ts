@@ -12,10 +12,11 @@ import {HttpClientModule} from '@angular/common/http';
 import { EmployeeService } from './employee/employee.service';
 import { ListDepartmentComponent } from './Department/list-department/list-department.component';
 import { DepartmentService } from './Department/department.service';
+import { CreateDepartmentComponent } from './Department/create-department/create-department.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule,HttpClientModule,AppRoutingModule  ],
-  declarations: [ AppComponent, HelloComponent,MyComponent, ListEmployeeComponent, ListDepartmentComponent ],
+  declarations: [ AppComponent, HelloComponent,MyComponent, ListEmployeeComponent, ListDepartmentComponent, CreateDepartmentComponent ],
   bootstrap:    [ AppComponent ],
   providers: [ EmployeeService, DepartmentService]
 })
